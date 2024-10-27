@@ -22,7 +22,7 @@ System e-commerce do zamawiania Pizzy
 Wersja: 0.5 
 26\.10.2024
 #### <a name="_lyvpj0d4owxe"></a>**I. Cel i zakres projektu**
-**Cel projektu:** wdrożenie systemu zamówień do zamawiania pizzy online dla przedsiębiorstwa gastronomicznego XYZ, który będzie zapewniał błyskawiczne i ciŋgłe przyjmowanie zamówień od klientów, rejestrowanie ich w bazie oraz przekazywanie ich pracownikom kuchni, a następnie dostawcom.
+**Cel projektu:** Przygotowanie dokumentacji i planu teoretycznego systemu do zamawiania pizzy online (strona internetowa/aplikacja mobilna) który umożliwia użytkownikom przeglądanie menu, składanie zamówień, płatności online oraz śledzenie statusu zamówienia. Dokumentacja powinna zawierać opis funkcji, harmonogramu prac oraz zasady zarządzania projektem, aby zminimalizować ryzyko podczas przyszłej realizacji.
 
 **Zakres:** Projekt systemu, przygotowanie architektury oprogramowania oraz makiety. Plan testów funkcjonalnych, dostępności oraz bezpieczeństwa
 
