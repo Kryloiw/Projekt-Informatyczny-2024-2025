@@ -60,7 +60,11 @@ Wersja: 0.5
       3. **Amazon RDS** dla zarządzanych baz danych PostgreSQL oraz MongoDB Atlas jako zarządzanego rozwiązania NoSQL.
    1. **Infrastruktura jako kod (IaC):** Terraform do zarządzania infrastrukturą AWS jako kodem, pozwalający na automatyczne wdrażanie i aktualizowanie zasobów.
    1. **Orkiestracja kontenerów (Nomad)**: HashiCorp Nomad do zarządzania kontenerami aplikacji (Node.js/Django). Nomad, w połączeniu z Consulem (do service discovery) i Vaultem (do zarządzania tajnymi danymi), umożliwia automatyczne wdrażanie i monitorowanie aplikacji na kontenerach, zachowując skalowalność i elastyczność.
-   1. **Usługi discovery i sieciowe (Consul):** HashiCorp Consul, który obsługuje service discovery oraz sieciowe połączenia między mikrousługami. Consul automatycznie monitoruje i rejestruje usługi, zapewniając bezpieczną komunikację i dynamiczny load balancing, co pozwala aplikacji na efektywne skalowanie w zależności od obciążenia. 
+   1. **Usługi discovery i sieciowe (Consul):** HashiCorp Consul, który obsługuje service discovery oraz sieciowe połączenia między mikrousługami. Consul automatycznie monitoruje i rejestruje usługi, zapewniając bezpieczną komunikację i dynamiczny load balancing, co pozwala aplikacji na efektywne skalowanie w zależności od obciążenia.
+   1. **Monitoring i observability:** System monitorowania (Prometheus + Grafana) do zbierania metryk i logów z infrastruktury oraz aplikacji, umożliwiający szybkie wykrywanie i reagowanie na problemy w działaniu aplikacji.
+   1. **System alertowania:** Alertmanager, który pozwala na automatyczne powiadomienia w przypadku przekroczenia progów krytycznych, co przyspiesza reakcję na problemy.
+   1. **Zarządzanie logami:** Loki + Grafana, co umożliwia szybkie przeszukiwanie logów i identyfikację problemów.
+   1. **Automatyzacja CI/CD:**: Jenkins, do automatyzacji wdrożeń i testów, co umożliwia częstsze i bezpieczniejsze wdrożenia.
 -----
 #### <a name="_q7dozito4mpv"></a>**IV. Projekt makiety**
 1. **Makieta i prototyp:**
