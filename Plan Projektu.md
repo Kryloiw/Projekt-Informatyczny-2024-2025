@@ -24,7 +24,7 @@ Wersja: 0.5
 #### <a name="_lyvpj0d4owxe"></a>**I. Cel i zakres projektu**
 **Cel projektu:** Przygotowanie dokumentacji i planu teoretycznego systemu do zamawiania pizzy online (strona internetowa/aplikacja mobilna) który umożliwia użytkownikom przeglądanie menu, składanie zamówień, płatności online oraz śledzenie statusu zamówienia. Dokumentacja powinna zawierać opis funkcji, harmonogramu prac oraz zasady zarządzania projektem, aby zminimalizować ryzyko podczas przyszłej realizacji.
 
-**Zakres:** Projekt systemu, przygotowanie architektury oprogramowania oraz makiety. Plan testów funkcjonalnych, dostępności oraz bezpieczeństwa
+**Zakres:** Projekt systemu, przygotowanie architektury oprogramowania oraz makiety. Plan testów funkcjonalnych, dostępności, bezpieczeństwa oraz wdrożenia.
 
 -----
 #### <a name="_gjb8ia3gc6v3"></a>**II. Analiza wymagań**
@@ -40,8 +40,9 @@ Wersja: 0.5
 #### <a name="_mgv1ysbzic1x"></a>**III. Projektowanie funkcji i struktury systemu**
 1. **Określenie modułów systemu:**
    1. **Panel użytkownika:** rejestracja/logowanie, odzyskiwanie hasła, wylogowanie, dodawanie adresów dostaw, przegląd zamówień, historia zamówień, edytowanie danych konta, dodawanie produktów do listy ulubionych.
-   1. **Panel zamówień:** menu z pizzami, personalizacja pizzy, koszyk, komentarz do zamówienia, wybór adresu dostawy, finalizacja zamówienia, status zamówienia.
-   1. **Panel płatności:** systemy płatności, wybór metody płatności (blik, karta, przelew24, gotówka), faktura.
+   1. **Panel zamówień:** menu z pizzami, personalizacja pizzy, koszyk, komentarz do zamówienia, wybór adresu dostawy, finalizacja zamówienia, przewidywany czas dostawy, obszar realizacji zamówień, status zamówienia.
+   1. **Panel płatności:** systemy płatności, wybór metody płatności (blik, karta, przelew24, gotówka), faktura / paragon.
+
    1. **Panel dostaw:** śledzenie zamówienia, integracja z systemem GPS.
    1. **Panel administracyjny:** zarządzanie produktami, obsługa zamówień, raporty.
 1. **Opis architektury systemu:**
@@ -70,11 +71,12 @@ Wersja: 0.5
 1. **Makieta i prototyp:**
    1. Tworzenie low-fidelity makiet (szkiców) dla szybkiego feedbacku podczas spotkań i high-fidelity prototypów do prezentacji wizualnej.
 1. **Proces projektowania interfejsu:**
-   1. Wykorzystanie narzędzi takich jak Figma lub Adobe XD.
+   1. Wykorzystanie narzędzi takich jak Axure, Figma lub Adobe XD.
    1. Skupienie na dostępności i wydajności.
 1. **Interfejs użytkownika:**
    1. Przejrzysty i intuicyjny. Skupiony na wygodzie składania zamówienia i korzystania z menu.
    1. Elementy takie jak szybki dostęp do listy ulubionych produktów, łatwy wybór dodatków do pizzy.
+   1. Prezentacja promocji, ofert specjalnych, kodów rabatowych.
 -----
 #### <a name="_oir2fo7i376i"></a>**V. Harmonogram prac projektowych**
 **Faza 1: Dokumentacja i analizy**
@@ -106,6 +108,7 @@ Wersja: 0.5
 1. **Narzędzia do zarządzania:**
    1. **Jira** – dla symulacji zarządzania zadaniami.
    1. **MS Teams** – dla komunikacji projektowej.
+   1. **GitHub** - dla edycji dokumentów i śledzenia kontroli wersjii.
 1. **Struktura zespołu projektowego:**
    1. Role:  Project Manager (dla zarządzania wymaganiami i Jirą), Analityk biznesowy (analiza wymagań), Architekt (projektowanie architektury), UX/UI Designer (makieta), Tester.
 1. **Raportowanie i monitorowanie:**
