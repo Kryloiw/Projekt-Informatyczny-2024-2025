@@ -1,43 +1,33 @@
-<a name="_vnpxukvjnony"></a>
 
-Planu Projektu
+Planu Projektu 
+
 System e-commerce do zamawiania Pizzy
 
-
-
-<a name="_l9sqg16xn0qd"></a><a name="_udq9183vx2cl"></a>
-
-
-
-
-
-
-
-
-
-
------
-
-
-Wersja: 0.5 
-26\.10.2024
+***
 #### <a name="_lyvpj0d4owxe"></a>**I. Cel i zakres projektu**
 **Cel projektu:** Przygotowanie i wdrożenie systemu zamówień i dostaw online dla przedsiębiorstwa gastronomicznego XYZ, który będzie zapewniał błyskawiczne i ciągłe przyjmowanie zamówień od klientów, rejestrowanie ich w bazie oraz przekazywanie ich pracownikom kuchni, a następnie dostawcom.
 
 **Zakres:** Projekt systemu, przygotowanie architektury oprogramowania oraz makiety. Plan testów funkcjonalnych, dostępności, bezpieczeństwa oraz wdrożenia.
 
 -----
-#### <a name="_gjb8ia3gc6v3"></a>**II. Analiza wymagań**
-1. **Identyfikacja wymagań funkcjonalnych i niefunkcjonalnych:**
+#### II. Analiza wymagań
+
+1. Identyfikacja wymagań funkcjonalnych i niefunkcjonalnych:
+
    1. Wymagania funkcjonalne (np. moduł zamówień, płatności, śledzenie zamówienia).
-   1. Wymagania niefunkcjonalne (np. wydajność, bezpieczeństwo, dostępność w używaniu).
-1. **Analiza konkurencji:**
-   1. Analiza istniejących systemów do zamawiania jedzenia (np. UberEats, Wolt, Pyszne.pl).
-1. **Określenie grupy docelowej:**
-   1. Profil użytkownika (wiek, preferencje dot. platformy).
-   1. Wymagania użytkowników (logowanie jako gość, proste płatności, czytelny i łatwo dostępny interfejs).
------
-#### <a name="_mgv1ysbzic1x"></a>**III. Projektowanie funkcji i struktury systemu**
+
+   2. Wymagania niefunkcjonalne (np. wydajność, bezpieczeństwo, dostępność w używaniu).
+
+2. Analiza wymagań technicznych i wsparcia technicznego:
+
+   1. Analiza technologii, na której powinien opierać się system (Web, Mobilne).
+
+   2. Analiza sposobów kontaktu w celu uzyskania wsparcia technicznego (np. ChatBot, e-mail, telefon)
+
+3. Analiza wymagań dotyczących wdrożenia.
+
+***
+***III. Projektowanie funkcji i struktury systemu**
 1. **Określenie modułów systemu:**
    1. **Panel użytkownika:** rejestracja/logowanie, odzyskiwanie hasła, wylogowanie, dodawanie adresów dostaw, przegląd zamówień, historia zamówień, edytowanie danych konta, dodawanie produktów do listy ulubionych.
    1. **Panel zamówień:** menu z pizzami, personalizacja pizzy, koszyk, komentarz do zamówienia, wybór adresu dostawy, finalizacja zamówienia, przewidywany czas dostawy, obszar realizacji zamówień, status zamówienia.
@@ -115,16 +105,27 @@ Wersja: 0.5
    1. **Cotygodniowe spotkania statusowe** w celu omówienia założeń i przeglądu teorii.
    1. **Taski i komentarze w Jirze** na etapach projektu.
 -----
-#### <a name="_w2j6z5t1onem"></a>**VII. Dokumentacja**
-1. **x**
-   1. x
-   1. x
-1. **x**
-   1. x
-   1. x
-1. **x**
-   1. x
-   1. x
+#### VII. Dokumentacja
+
+1. Dokumentacja architektoniczna:
+
+   1. Szczegółowy opis struktury architektury (komponenty, zależności, integracje).
+
+   2. Diagramy architektury i przepływu danych.
+
+2. Dokumentacja użytkownika i administratora:
+
+   1. Opis korzystania z systemu dla przyszłych użytkowników.
+
+   2. Specyfikacja panelu administratora z opisem zarządzania systemem.
+
+3. Dokumentacja techniczna:
+
+   1. Opis technologii, API oraz baza danych.
+
+4. Wytyczne dla przyszłych zespołów deweloperskich.
+
+
 -----
 #### <a name="_k9fqt447vb3f"></a>**VIII. Ocena ryzyka i plan zapobiegania**
 1. **Opóźnienia w dostarczaniu dokumentacji i projektów teoretycznych**
